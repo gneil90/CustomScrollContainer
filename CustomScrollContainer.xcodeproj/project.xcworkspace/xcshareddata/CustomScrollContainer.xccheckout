@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B354F8BD-9FDF-47C2-B0D7-EC9E8134C303</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomScrollContainer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19AA7FC312A558C7C965C1D3A93649533ADE3499</key>
+		<string>https://github.com/gneil90/CustomScrollContainer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomScrollContainer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19AA7FC312A558C7C965C1D3A93649533ADE3499</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gneil90/CustomScrollContainer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19AA7FC312A558C7C965C1D3A93649533ADE3499</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19AA7FC312A558C7C965C1D3A93649533ADE3499</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomScrollContainer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

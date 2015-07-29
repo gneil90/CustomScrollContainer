@@ -16,23 +16,29 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 		let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
-		let aViewController = storyboard.instantiateViewControllerWithIdentifier("A") as! AViewController;
+		var aViewController = storyboard.instantiateViewControllerWithIdentifier("A") as! AViewController;
 		let bViewController = storyboard.instantiateViewControllerWithIdentifier("B") as! BViewController;
 		let cViewController = storyboard.instantiateViewControllerWithIdentifier("C") as! CViewController;
+		
+		
+		var bounds = UIScreen.mainScreen().bounds
+		var width = bounds.size.width
+		var height = bounds.size.height;
 
-		scrollView!.contentSize = CGSizeMake(3*CGRectGetWidth(aViewController.view.frame), CGRectGetHeight(view.frame));
+		scrollView!.contentSize = CGSizeMake(3*width, height);
 		
 		
 		let viewControllers = [aViewController, bViewController, cViewController]
 		
 		var idx:Int = 0;
 		
+
 		for viewController in viewControllers {
 			// index is the index within the array
 			// participant is the real object contained in the array
 			addChildViewController(viewController);
-			let originX:CGFloat = CGFloat(idx) * CGRectGetWidth(scrollView!.frame);
-			viewController.view.frame = CGRectMake(originX, 0, viewController.view.frame.size.width, viewController.view.frame.size.height);
+			let originX:CGFloat = CGFloat(idx) * width;
+			viewController.view.frame = CGRectMake(originX, 0, width, height);
 			scrollView!.addSubview(viewController.view)
 			viewController.didMoveToParentViewController(self)
 			idx++;
