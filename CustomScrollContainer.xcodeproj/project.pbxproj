@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08411A61B6A5B0F008D3929 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08411A51B6A5B0F008D3929 /* CustomTableViewCell.swift */; };
 		D0B187B21B372B6500B4A8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B187B11B372B6500B4A8BA /* AppDelegate.swift */; };
 		D0B187B41B372B6500B4A8BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B187B31B372B6500B4A8BA /* ViewController.swift */; };
 		D0B187B71B372B6500B4A8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B187B51B372B6500B4A8BA /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D08411A51B6A5B0F008D3929 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D0B187AC1B372B6500B4A8BA /* CustomScrollContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomScrollContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B187B01B372B6500B4A8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B187B11B372B6500B4A8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				D0B187D11B372C0900B4A8BA /* AViewController.swift */,
 				D0B187D31B372C1B00B4A8BA /* BViewController.swift */,
 				D0B187D51B372C3900B4A8BA /* CViewController.swift */,
+				D08411A51B6A5B0F008D3929 /* CustomTableViewCell.swift */,
 			);
 			path = CustomScrollContainer;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08411A61B6A5B0F008D3929 /* CustomTableViewCell.swift in Sources */,
 				D0B187B41B372B6500B4A8BA /* ViewController.swift in Sources */,
 				D0B187D41B372C1B00B4A8BA /* BViewController.swift in Sources */,
 				D0B187D61B372C3900B4A8BA /* CViewController.swift in Sources */,
@@ -421,6 +425,7 @@
 				D0B187CD1B372B6500B4A8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0B187CE1B372B6500B4A8BA /* Build configuration list for PBXNativeTarget "CustomScrollContainerTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +434,7 @@
 				D0B187D01B372B6500B4A8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

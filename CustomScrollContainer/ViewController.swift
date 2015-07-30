@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 		let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
-		var aViewController = storyboard.instantiateViewControllerWithIdentifier("A") as! AViewController;
+		let aViewController = storyboard.instantiateViewControllerWithIdentifier("A") as! AViewController;
 		let bViewController = storyboard.instantiateViewControllerWithIdentifier("B") as! BViewController;
 		let cViewController = storyboard.instantiateViewControllerWithIdentifier("C") as! CViewController;
 		
